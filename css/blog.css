@@ -20,7 +20,6 @@ h3, h4{
   border-radius: 7px;
   border-bottom: 2px solid rgba(22, 180, 14, 0.6);
 }
-
 @media(min-width: 400px){
   #blog p{
 
