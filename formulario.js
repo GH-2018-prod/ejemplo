@@ -1,3 +1,4 @@
+
 var inputs = document.getElementsByClassName('formulario_input');
 
 for (var i=0; i< inputs.length; i++){
