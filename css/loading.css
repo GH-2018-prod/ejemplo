@@ -12,9 +12,20 @@ body{
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 999;
-  transition: all 1s;
+  transition: all 3s;
+
 }
 
+/*UNCOMMENT THIS TO PLAY THE GIF LOADING LOGO ALONG WITH THE IMG "LOADING" TAG IN INDEX.HTML
+#loader img{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+*/
+
+/* CSS anamition*/
 #logo{
     padding: 0;
     list-style: none;
@@ -23,7 +34,7 @@ body{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    transition: all 1s;
+    transition: all 3s;
 }
 
 #logo li{
@@ -32,7 +43,7 @@ body{
   border-radius: 50%;
   margin: 3px;
   transform: scale(0);
-  animation: zoom 0.5s infinite alternate;
+  animation: zoom .5s infinite alternate;
 }
 
 
