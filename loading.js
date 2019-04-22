@@ -10,6 +10,6 @@
 
 var logo = document.getElementById('logo');
   window.addEventListener ('load', function(){
-    logo.style.borderRadius= "50%";
+    logo.style.opacity= "0.4";
     logo.style.visibility= 'hidden';
 });
